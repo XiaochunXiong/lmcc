@@ -1,0 +1,12 @@
+76， 86 96 06 16
+17
+94  2000
+
+Cassandra Project
+
+pg_dump -C -h srserver -U enterprisedb boss | psql -h localhost -U enterprisedb synergyrehab
+SELECT setval('public.order_t_id_seq', 1500, true);
+SELECT setval('public.order_t_id_seq', 1999, true);
+
+
+42838428S1
